@@ -1,0 +1,77 @@
+<div class="navbar">
+
+    <li>
+        <input id="oi" type="submit" value="Entrar" (click)="pegarLogin()">
+        <a id="esqueceu" href="#">Esqueceu a senha?</a>
+    </li>
+    <li>
+        <input name="senha" type="password" placeholder="Senha">
+    </li>
+    <li>
+        <input id="usuario" name="usuario" type="text" placeholder="Nome de usuário" (input)="nomeUsuario($event)">
+    </li>
+
+    <li>
+        <p>Login:</p>
+    </li>
+
+    <li style="float:left">
+        <a id="active" href="#descricao" (click)="irPraBaixo();">Sobre nós</a>
+    </li>
+    <li id="tamanhoSwitch" style="float:left">
+
+        <label class="switch">
+
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
+    </li>
+</div>
+
+<!-- AQUI ACABA A DIV DO NAVBAR -->
+
+<div class="container">
+    <div class="fundo">
+        <h1 id="logo">Nomad Work</h1>
+        <div id = "sumirAlerta">
+                <div id="alerta" class="alert">
+                        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                        <strong>Muito bem! </strong> Sua conta foi criada com sucesso<br> 
+                      </div>
+            </div>  
+        <div class="login">
+            <h2>Cadastre-se para
+                <br>descobrir como aproveitar a vida</h2>
+              
+            <form #f="ngForm" (ngSubmit)="inserirUsuario(f)" novalidate>
+                <input id="mudar" type="text" id="email" name="email" ngModel placeholder="E-mail ou número do celular" class="maior">
+                <input type="text" id="fullname" name="fullname" ngModel placeholder="Nome completo">
+                <input type="text" id="user" name="user" ngModel required #first="ngModel" placeholder="Nome de usuário">
+                    <p id="erroUsuario">oi</p>
+                <input type="password" id="pass" name="pass" ngModel placeholder="senha">
+                <div class="row">
+                    <div class="col">
+                        <div class="botao">
+                            <button (click)="apagarCampos()">Cadastrar</button>
+                        </div>
+                                   
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="descricao">
+        <h1>Já ouviu falar sobre o termo Nomade Digital?</h1>
+        <h3>Nômades digitais são empresários e profissionais que comumente trabalham como escritores freelancers,
+            <br> fotógrafos, designers, desenvolvedores de software e qualquer outro tipo de trabalhador do conhecimento
+            <br> que possa realizar suas tarefas independente de sua localização física.</h3>
+        <hr>
+        <h1>Qual o nosso propósito?</h1>
+        <h3>Nós, criadores da NomadWork, temos como objetivo interligar profissionais
+            <br> que querem trabalhar menos tempo dentro de um escritório, com lugares
+            <br> que tem a capacidade de servir a tal propósito como por exemplo:
+            <br>disponibilização de tomadas, se possui WiFi ou se necessita de 3G,
+            <br>alimentação ou até mesmo se é um local sossegado/tranquilo</h3>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+<div id ="main" class="container">
+ 
+  <app-topo></app-topo>
+  <div id="button-layer">
+      <button id="btnAction" (click)="pegarLocalizacao()">Relocalizar</button>
+      <div id="output">
+          <h1 id="nomePefil">Pedro Albuquerque</h1>
+          <h3 id="emailPefil">pdroalbqrq@gmail.com</h3>
+        <div id="imagemPerfil">
+            <img id="perfil" src="/assets/fundo/feriasTrabalho.jpg">
+        </div>
+        
+      </div>
+  
+    <!--(mouseover)="getLocation()"-->
+  </div>
+  <div id="map" #gmap></div>
+</div>
+

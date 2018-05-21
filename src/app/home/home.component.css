@@ -1,0 +1,395 @@
+.container{
+    text-align: center;
+}
+#logo{
+    width: 100%;
+    cursor: text;
+    font-size: 70px;
+    margin-top: 100px;
+    position: absolute;
+    font-family: 'Oleo Script', cursive;
+}
+#logo:hover{
+    cursor:default;
+}
+
+h3{
+    margin-left:40px;
+    margin-top:30px;
+}
+
+#descricao{
+    height: 800px;
+    width: 100%;
+    margin-top: 1050px;
+    position: absolute;
+    text-align: center
+}
+
+a:hover{
+    color:rgb(0, 166, 216);
+}
+#esqueceu{
+  width: 10px
+}
+
+.fundo{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url("/assets/fundo/fundologin2.png");
+
+    border-bottom: 20px solid rgb(0, 195, 255);
+}
+hr{
+    border: 1px solid rgb(0, 195, 255);
+    color: #fff;
+    background-color: #fff;
+    height: 4px;
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+.login{
+    background: #FFF;
+    width: 25%;
+    height: 380px;
+    margin: 0% auto;
+    margin-top: 250px;
+    padding:20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+.login input{
+font-size:15px;
+display: block;
+border: 1px solid #ccc;
+border-radius: 4px;
+background: rgb(231, 231, 231);
+border: 1px solid rgb(221, 221, 221);
+-webkit-text-fill-color:rgb(133, 133, 133);
+padding-left: 10px;
+padding-bottom: 10px;
+padding-top: 10px;
+width: 80%;
+margin: auto;
+margin-bottom: 15px;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+transition:200.0ms;
+-webkit-transition:200.0ms;
+-moz-transition:200.0ms;
+}
+
+.login input:focus {
+     background: rgb(255, 255, 255);
+     -webkit-text-fill-color:rgb(66, 66, 66);
+}
+
+
+.botao button{
+    background: rgb(0, 195, 255);
+    outline: 0px;
+    color: #FFF;
+    border: 0px;
+    display: block;
+    height:40px;
+    width: 50%;
+    font-family: 'Nunito', sans-serif;
+    margin:auto;
+    text-align: center;
+    font-size: 20px;
+    display:block;
+    transition:50.0ms;
+    -webkit-transition:50.0ms;
+    -moz-transition:50.0ms;
+}
+.botao button:hover{
+    background: rgb(49, 207, 255);
+    cursor: pointer;
+  
+}
+.botao button:active {
+    background: rgb(89, 236, 255);
+}
+#cadastro{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background: rgba(236, 236, 236, 0.411);
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 95%;
+}
+#cadastro:active{
+    background: rgb(236, 236, 236);
+}
+.text {
+    overflow: hidden;
+    text-overflow: ellipsis;    
+    display: block;
+    float: right;
+    margin-bottom: 1000px
+}
+
+@media screen and (max-width: 1450px) {
+    .login{width: 30%}
+  }
+@media screen and (max-width: 1250px) {
+    .login{width: 40%}
+  }
+  @media screen and (max-width: 910px) {
+    .login{width: 50%}
+  }
+  @media screen and (max-width: 600px) {
+    h2{
+        font-size: 20px;
+    }
+   
+    #logo{
+        font-size: 50px;
+    }
+    .botao button{
+        font-size:10px;
+    }
+  }
+  @media screen and (max-height: 750px) {
+   .login{width: 40%}
+  }
+
+
+
+
+  .navbar {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0 auto;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    border-bottom: 1px solid rgb(0, 195, 255);
+}
+li {
+    float: right;
+}
+#esqueceu{
+    color:rgb(0, 0, 0);
+    font-size: 10px;
+    margin-right: 0px;
+    margin-left:0px;
+    float:none;
+    font-weight: bold;
+    margin-top:0px;
+    white-space: nowrap;
+}
+#esqueceu:hover{
+    color:rgb(0, 195, 255);
+}
+li p {
+    display: block;
+    color: rgb(0, 0, 0);
+    position: relative;
+    padding-right: 10px;
+    font-weight: bold
+}
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    position: relative;
+    margin-right: 15px;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-top:5px;
+    text-decoration: none;
+}
+li input {
+    display: block;
+    color: rgb(0, 0, 0);
+    margin-top:7px;
+    margin-right: 10px;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+   color: rgb(0, 140, 255);
+}
+#oi{
+    background: rgb(0, 195, 255);
+    outline: 0px;
+    color: #FFF;
+    border: 0px;
+    display: block;
+    height: 30px;
+    width: 100px;
+    padding: 0px 0px;
+}
+#oi:hover{
+    background: rgb(49, 207, 255);
+    cursor: pointer;
+}
+#oi:active {
+    background: rgb(89, 236, 255);
+}
+#active{
+    background: rgb(37, 204, 255);  
+    color:white;
+    padding: 16px 10px;
+    margin: 0px;
+}
+#active:hover{
+    cursor: pointer;
+}
+@media screen and (max-width: 850px) {
+    li p{
+        width: 40%;
+        font-size: 11px;
+        text-align: center;
+    }
+    li a {
+        width: 40%;
+        font-size: 11px;
+        text-align: center;
+        padding-right: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    #esqueceu{
+        text-align: center;
+        font-size: 10px;
+        margin-right: 0px;
+        margin-left:0px;
+        margin-top:0px;
+    }
+    p{
+        margin-top:18px;
+    }
+    #active{
+        padding: 17px 10px;
+    }
+    li input{
+        margin-top: 10px;
+        margin-right: 10px;
+        padding: 7px 10px;
+        
+    }
+    #oi{
+        margin-top: 6px;
+        margin-right: 10px;
+        padding: 5px 10px;
+    }
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {display:none;}
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: rgb(0, 195, 255);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px rgb(0, 195, 255);
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  #tamanhoSwitch{
+    width: 5px;
+    height: 5px;
+  }
+
+
+
+
+
+  .alert {
+    display:none;
+padding-top: 40px;
+padding-bottom: 40px;
+padding-right: 10px;
+padding-left: 10px;
+
+    background-color: #14ad00;
+    color: white;
+}
+
+.closebtn {   
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+#alerta{
+    width: 25%;
+    margin-top: 200px;
+    margin-left: 37%;
+  position: absolute;
+}
+#erroUsuario{    
+    display:none;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 0px
+}

@@ -1,0 +1,70 @@
+#map{
+    width: 100%;
+    height: 85.5%;
+    margin: 0% auto;
+    z-index: 3;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url("/assets/fundo/fundologin2.png");
+}
+#btnAction {
+    background: #ffffff;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 90%;
+    padding: 10px 10px;
+    border: 0px;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+    font-size: 0.9em;
+    cursor:pointer;
+    z-index: 5;
+}
+#btnAction:active{
+    border:1px solid rgba(0, 0, 0, 0.541);
+    
+}
+#btnAction:focus{
+    outline: none;
+   
+    
+}
+#btnAction:disabled {
+    background: #6c99d2;
+}
+#output{
+    height: 200px;
+    border:1px solid rgb(0, 195, 255);
+    border-left: 0px;
+    background: rgba(0, 0, 0, 0.541)
+}
+#imagemPerfil{
+    background-color: black;
+    height: 135px;
+    width: 135px;
+    border-radius: 100px;
+    margin-top: 56px;
+    margin-left: 300px;
+}
+#perfil{
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    
+}
+#nomePefil{
+    margin-top: 75px;
+    margin-left: 470px;
+    position: absolute;
+    color: white;
+}
+#emailPefil{
+    margin-top: 125px;
+    margin-left: 470px;
+    position: absolute;
+    color: white;
+}

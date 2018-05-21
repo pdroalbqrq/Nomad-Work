@@ -1,0 +1,120 @@
+.navbar {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0 auto;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    border-bottom: 1px solid rgb(0, 195, 255);
+}
+li {
+    float: right;
+}
+#esqueceu{
+    color:rgb(0, 0, 0);
+    font-size: 10px;
+    margin-right: 0px;
+    margin-left:0px;
+
+    font-weight: bold;
+    margin-top:0px;
+    padding-left:6px;
+    padding-right: 0px;
+}
+#esqueceu:hover{
+    color:rgb(0, 195, 255);
+}
+li p {
+    display: block;
+    color: rgb(0, 0, 0);
+    position: relative;
+    padding-right: 10px;
+    font-weight: bold
+}
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    position: relative;
+    margin-right: 15px;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-top:5px;
+    text-decoration: none;
+}
+li input {
+    display: block;
+    color: rgb(0, 0, 0);
+    margin-top:7px;
+    margin-right: 10px;
+    padding: 10px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+   color: rgb(0, 140, 255);
+}
+#oi{
+    background: rgb(0, 195, 255);
+    outline: 0px;
+    color: #FFF;
+    border: 0px;
+    display: block;
+    height: 30px;
+    width: 100px;
+    padding: 0px 0px;
+}
+#oi:hover{
+    background: rgb(0, 186, 243);
+}
+#oi:active {
+    background: rgb(37, 204, 255);
+}
+#active{
+    background: rgb(37, 204, 255);  
+    color:white;
+    padding: 16px 10px;
+    margin: 0px;
+}
+@media screen and (max-width: 850px) {
+    li p{
+        width: 40%;
+        font-size: 11px;
+        text-align: center;
+    }
+    li a {
+        width: 40%;
+        font-size: 11px;
+        text-align: center;
+        padding-right: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    #esqueceu{
+        text-align: center;
+        font-size: 10px;
+        margin-right: 0px;
+        margin-left:0px;
+        margin-top:0px;
+    }
+    p{
+        margin-top:18px;
+    }
+    #active{
+        padding: 17px 10px;
+    }
+    li input{
+        margin-top: 10px;
+        margin-right: 10px;
+        padding: 7px 10px;
+        
+    }
+    #oi{
+        margin-top: 6px;
+        margin-right: 10px;
+        padding: 5px 10px;
+    }
+}
